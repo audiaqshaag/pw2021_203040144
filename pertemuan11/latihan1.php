@@ -32,8 +32,8 @@
             <th><?=$mhs['jurusan']?></th>
             <th>
 
-                <a href="#">Ubah</a>
-                <a href="hapus.php">Hapus</a>
+                <a href="ubah.php">Ubah</a>
+                <a href="hapus.php?id=<?=$m['id'];?>">Hapus</a>
             
             </th>
         </tr>
