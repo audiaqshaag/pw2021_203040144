@@ -15,13 +15,10 @@
   if ($result) {
     echo "<script>
     alert('Data berhasil ditambahkan');
-    document.location.href='tubes.php';
+    document.location.href='halamanAdmin.php';
     </script>";
 } else {
     echo "data gagal ditambahkan!";
 }
   mysqli_close($conn);
 }
-
-
-?>

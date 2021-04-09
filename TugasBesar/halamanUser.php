@@ -18,13 +18,15 @@ if (isset($_POST['cari'])) {
 
     <div class="isi w3-animate-top">
         <img class="m-3" style="float:left;width:30%;height:auto;" src="images/logo.png" alt="">
-        <br><br><br>
+        <a class="btn btn-danger" style="margin-top:3%;margin-right:10%;float:right;" href="halamanAwal.php">Log Out</a>
+
+        <br>
         <div id="header">
 
         </div>
 
 
-<br>
+        <br>
 
         <br><br>
         <?php include 'carosel.php' ?>
@@ -33,7 +35,6 @@ if (isset($_POST['cari'])) {
 
         <div id="container">
             <br>
-            <a class="btn btn-secondary mb-4" href="tambah.php"><i class='fas fa-plus'> </i>  Tambah Product</a>
             <br>
             <table id="example" class="table  mt-3 text-white table-bordered" style="width:100%">
                 <thead>
@@ -61,7 +62,7 @@ if (isset($_POST['cari'])) {
                             <th><b><?= $skt['harga'] ?>$</b></th>
                             <th>
 
-                                <a class="btn btn-danger" href="fungsiDelete.php?id_barang=<?php echo $skt['id_barang']; ?>">Delete</a>
+                            <a class="btn w3-green" href="#">Buy</a>
 
 
                             </th>

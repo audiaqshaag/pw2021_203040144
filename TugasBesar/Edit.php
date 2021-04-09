@@ -15,6 +15,11 @@
     }
 </script>
 
+<?php
+
+    $idtemp = $_GET['id_barang'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,8 +51,9 @@
         </div>
 
         <div id="container">
+            <h1 style="text-align:center;">UBAH PRODUCT</h1>
             <br>
-            <form action="fungsiInsert.php" method="POST" enctype="multipart/form-data">
+            <form action="fungsiEdit.php" method="POST" enctype="multipart/form-data">
                 <div class="formtambah" style="width:50%;">
                     <div class="formnama">
                         <label>Nama :</label>
@@ -77,7 +83,7 @@
                 <br>
 
 
-                <input style="width:50%;margin-left:25%;" class="btn w3-green" type="submit" name="upload" value="Tambahkan"></input>
+                <input style="width:50%;margin-left:25%;" class="btn w3-green" type="submit" name="ubah" value="Ubah"></input>
                 <br><br><br>
                 <a class="btn btn-danger" style="width:15%;" href="halamanAdmin.php">Cancel</a>
             </form>

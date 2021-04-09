@@ -12,7 +12,7 @@ $result  = mysqli_query($conn, $mysqli);
 if ($result) {
   echo "<script>
       alert('Data berhasil dihapus');
-      document.location.href='tubes.php';
+      document.location.href='halamanAdmin.php';
       </script>";
 } else {
   echo "data gagal dihapus!";
