@@ -9,6 +9,10 @@
 
 <body>
 
+<form method="GET" action="">
+    <input type="text" name="search" placeholder="Masukan keyword yang dicari...">
+    <button type="submit"> cari</button>
+</form>
 <table border="1px solid black">
     <tr>
         <th>id</th>

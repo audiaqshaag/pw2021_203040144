@@ -1,0 +1,50 @@
+body {
+	background-image: url("Images/skt.jpg");
+	background-size: cover;
+}
+
+#header {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#container {
+	width: 1000px;
+	padding:30px;
+	padding-top: 0px;
+	border: 1px solid grey;
+	margin: 0 auto;
+}
+
+#footer {
+	text-align: center;
+	width: 700px;
+	height: 130px;
+	color: white;
+	margin: 0 auto;
+}
+
+
+.isi {
+	padding: 2px;
+	margin-left: 15%;
+	margin-top: 2%;
+	width: 70%;
+	color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0.747);
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.192);
+}
+
+h1 {
+	font-size: 60px;
+}
+
+.kanan{
+	float: right;
+	width:49%;
+	height:49%;
+}
+
+.sosmed{
+	padding-top:0px;
+}

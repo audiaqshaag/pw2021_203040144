@@ -22,5 +22,11 @@ while($row=mysqli_fetch_assoc($result)){
 }
 
 $mahasiswa=$rows;
-
+// var_dump($rows);
+//    if(! $conn ) {
+//       die('database tidak terhubung ' . mysqli_error());
+//    }
+   
+//    echo 'database terkoneksi';
+//    mysqli_close($conn);
 ?>
